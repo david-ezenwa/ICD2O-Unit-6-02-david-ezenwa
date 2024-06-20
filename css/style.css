@@ -2,3 +2,27 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #082242;
+}
+
+.container {
+  text-align: center;
+}
+
+#cookie {
+  width: 500px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+#cookie:active {
+  transform: scale(0.9);
+}
